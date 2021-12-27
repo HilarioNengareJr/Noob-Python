@@ -24,3 +24,12 @@ for num in nums:
         # continue ignores 8 and prints numbers afterwards
         continue
     print(num)
+
+# nested for loop example
+nums = [500,7,1,3,82,6,9,4,8,100]
+
+nums.sort()
+for num in nums:
+    for i in 'abc':
+        if num in range(1,8):
+           print(num,i)
