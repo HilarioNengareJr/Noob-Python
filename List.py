@@ -27,3 +27,7 @@ for num in range(1,1_01):
 print("Even Numbers",even_nums)
 print()
 print("Odd Numbers",odd_nums)
+
+# extending a list
+even_nums.extend(odd_nums)
+print(even_nums)
