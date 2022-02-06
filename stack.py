@@ -1,5 +1,5 @@
 """
-DATA STRUCTURES USING PYTHON...woooooo feels awesome!
+STACK IMPLEMENTATION
 """
 class Stack:
     def __init__(self):
