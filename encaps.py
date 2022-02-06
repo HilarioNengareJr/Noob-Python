@@ -1,5 +1,7 @@
 # Python program to
 # demonstrate protected members
+#Protected members in python are denoted with/by/using a single under-score e/g _ltrl
+#protected members are accessible out of the class even in the derived classes but please bro refrain from doing so outside of the classesssssssss
  
 # Creating a base class
 class A:
