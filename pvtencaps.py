@@ -1,4 +1,4 @@
-
+#represented by a double under_score __ltrl
 class A:
     def __init__(self):
         self._name = 'hilario nengare' #protected
