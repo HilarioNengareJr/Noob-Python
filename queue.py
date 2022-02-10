@@ -10,7 +10,7 @@ class Q:
         self.mylist = [] * self.max_size
         
     def Enqueue(self, data):
-        if len(self.mylist) == self.max_size-1:
+        if len(self.mylist) == self.max_size:
             print("Queue is full")
             return
         
@@ -19,7 +19,7 @@ class Q:
     
     def Dequeue(self):
         if len(self.mylist) == 0:
-            print("No dequeue operation is capable!!")
+            print("No dequeue operation is capable!!. Empty Queue")
             return
         
         else:
@@ -34,6 +34,10 @@ if __name__ == "__main__":
     q = Q(3)
     q.Enqueue(456_789)
     q.Enqueue(345)
+    q.Enqueue(7788)
+
+    q.Dequeue()
+
     q.Display()
     
     
