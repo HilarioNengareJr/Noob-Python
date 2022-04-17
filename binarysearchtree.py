@@ -1,4 +1,4 @@
-# Binary Search Tree and Recursion
+# Binary Search Tree and Recursion Stuff
 
 class BST:
     """ implementation of the BINARY SEARCH TREE class """
